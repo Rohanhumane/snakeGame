@@ -12,7 +12,7 @@ A simple **Snake Game** built with **React**, **TypeScript**, and **Canvas API**
 ### 1. Clone the repository
 ```sh
 git clone https://github.com/Rohanhumane/snakeGame.git
-cd react-snake-game
+cd snakeGame
 ```
 
 ### 2. Install dependencies
