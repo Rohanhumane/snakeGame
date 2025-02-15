@@ -166,7 +166,9 @@ const Snake = () => {
   return (
     <Row>
       <Container className={classes.container}>
-        <Button onClick={() => startGame()}>StartGame</Button>
+        <Button className="btn btn-success" onClick={() => startGame()}>
+          StartGame
+        </Button>
       </Container>
       {gameOver && <h1>GameOver!</h1>}
       <canvas
