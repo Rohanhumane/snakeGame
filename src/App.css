@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+.canvas {
+  border: 3px solid #00f;
+  animation: neon-glow 1.5s infinite alternate;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes neon-glow {
+  0% { box-shadow: 0 0 5px #00f, 0 0 10px #0ff; }
+  50% { box-shadow: 0 0 15px #00f, 0 0 25px #0ff; }
+  100% { box-shadow: 0 0 5px #00f, 0 0 10px #0ff; }
+}
